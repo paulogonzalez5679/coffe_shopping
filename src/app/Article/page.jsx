@@ -59,50 +59,20 @@ export default function Article() {
                         </div>
                     </div>
                     <div className={'mt-5'}>
-                        <p className={'text-sm leading-8 tracking-normal text-justify mb-3 '}>اپل ۱۰ سال قبل از آیفون ۵ رونمایی
-                            کرد که برخلاف نسل‌های قبلی، فاقد کانکتور ۳۰ پین
-                            بود و با پورت لایتنینگ راهی بازار شد. به لطف استفاده از این پورت، کاربران بدون توجه به جهت
-                            درست
-                            کابل، می‌توانستند آن را درون پورت گوشی قرار دهند. این در حالی است که پیش از   یتیخ ییخن ینمین لایتنینگ، برای
-                            سایر
-                            پورت‌ها فقط یک جهت درست وجود داشت.
-                        </p>
-                        <p className={'text-sm leading-8 tracking-normal text-justify '}>اما این پورت که روزی روزگاری یک نوآوری جذاب محسوب می‌شد، حالا صدای بسیاری از کاربران را
-                            درآورده و این افراد خواستار مهاجرت آیفون به سمت USB-C هستند. اما در کل اپل از جمله شرکت‌هایی
-                            است که برای استفاده از تکنولوژی‌های جدید هیچ عجله‌ای ندارد. در ادامه به ۶ مورد از
-                            تکنولوژی‌هایی می‌پردازیم که اپل دیرتر از رقبا به بهره‌گیری از آن‌ها روی آورده است.
-                        </p>
-                        <h2 className={`${Danab.className} mt-3 text-emerald-600 text-xl`}>USB-C؛ ۸ سال</h2>
+                        <p className={'text-sm leading-8 tracking-normal text-justify mb-3 '}>Apple presentó el iPhone 5 hace 10 años, que a diferencia de las generaciones anteriores, no tenía conector de 30 pines y salió al mercado con el puerto Lightning. Gracias a este puerto, los usuarios podían conectar el cable sin importar la dirección correcta. Antes del Lightning, otros puertos solo tenían una dirección correcta.</p>
+                        <p className={'text-sm leading-8 tracking-normal text-justify '}>Sin embargo, este puerto que alguna vez fue una innovación atractiva, ahora ha generado muchas críticas y los usuarios quieren que el iPhone migre a USB-C. En general, Apple es una empresa que no se apresura a adoptar nuevas tecnologías. A continuación, repasamos 6 tecnologías que Apple adoptó más tarde que sus competidores.</p>
+                        <h2 className={`${Danab.className} mt-3 text-emerald-600 text-xl`}>USB-C; 8 años</h2>
                         <Image className="h-[400px] w-full rounded-2xl mt-8 mb-4" width={'500'} height={'300'} src="/img/Blog/blog-new-7.jpg" alt="c" unoptimized/>
-                        <p className={'text-sm leading-8 tracking-normal text-justify'}>اما این پورت که روزی روزگاری یک نوآوری جذاب محسوب می‌شد، حالا صدای بسیاری از کاربران را
-                            درآورده و این افراد خواستار مهاجرت آیفون به سمت USB-C هستند. اما در کل اپل از جمله شرکت‌هایی
-                            است که برای استفاده از تکنولوژی‌های جدید هیچ عجله‌ای ندارد. در ادامه به ۶ مورد از
-                            تکنولوژی‌هایی می‌پردازیم که اپل دیرتر از رقبا به بهره‌گیری از آن‌ها روی آورده است.
-                        </p>
+                        <p className={'text-sm leading-8 tracking-normal text-justify'}>Sin embargo, este puerto que alguna vez fue una innovación atractiva, ahora ha generado muchas críticas y los usuarios quieren que el iPhone migre a USB-C. En general, Apple es una empresa que no se apresura a adoptar nuevas tecnologías. A continuación, repasamos 6 tecnologías que Apple adoptó más tarde que sus competidores.</p>
+                        <p className={'text-sm leading-8 tracking-normal text-justify '}>Sin embargo, este puerto que alguna vez fue una innovación atractiva, ahora ha generado muchas críticas y los usuarios quieren que el iPhone migre a USB-C. En general, Apple es una empresa que no se apresura a adoptar nuevas tecnologías. A continuación, repasamos 6 tecnologías que Apple adoptó más tarde que sus competidores.</p>
+                        <p className={'text-sm leading-8 tracking-normal text-justify '}>Sin embargo, este puerto que alguna vez fue una innovación atractiva, ahora ha generado muchas críticas y los usuarios quieren que el iPhone migre a USB-C. En general, Apple es una empresa que no se apresura a adoptar nuevas tecnologías. A continuación, repasamos 6 tecnologías que Apple adoptó más tarde que sus competidores.</p>
+                        <p className={'text-sm leading-8 tracking-normal text-justify mb-3 '}>Apple presentó el iPhone 5 hace 10 años, que a diferencia de las generaciones anteriores, no tenía conector de 30 pines y salió al mercado con el puerto Lightning. Gracias a este puerto, los usuarios podían conectar el cable sin importar la dirección correcta. Antes del Lightning, otros puertos solo tenían una dirección correcta.</p>
                         <p className={'text-sm leading-8 tracking-normal text-justify '}>اما این پورت که روزی روزگاری یک نوآوری جذاب محسوب می‌شد، حالا صدای بسیاری از کاربران را
                             درآورده و این افراد خواستار مهاجرت آیفون به سمت USB-C هستند. اما در کل اپل از جمله شرکت‌هایی
                             است که برای استفاده از تکنولوژی‌های جدید هیچ عجله‌ای ندارد. در ادامه به ۶ مورد از
                             تکنولوژی‌هایی می‌پردازیم که اپل دیرتر از رقبا به بهره‌گیری از آن‌ها روی آورده است.
                         </p>
-                        <p className={'text-sm leading-8 tracking-normal text-justify '}>اما این پورت که روزی روزگاری یک نوآوری جذاب محسوب می‌شد، حالا صدای بسیاری از کاربران را
-                            درآورده و این افراد خواستار مهاجرت آیفون به سمت USB-C هستند. اما در کل اپل از جمله شرکت‌هایی
-                            است که برای استفاده از تکنولوژی‌های جدید هیچ عجله‌ای ندارد. در ادامه به ۶ مورد از
-                            تکنولوژی‌هایی می‌پردازیم که اپل دیرتر از رقبا به بهره‌گیری از آن‌ها روی آورده است.
-                        </p>
-                        <p className={'text-sm leading-8 tracking-normal text-justify mb-3 '}>اپل ۱۰ سال قبل از آیفون ۵ رونمایی
-                            کرد که برخلاف نسل‌های قبلی، فاقد کانکتور ۳۰ پین
-                            بود و با پورت لایتنینگ راهی بازار شد. به لطف استفاده از این پورت، کاربران بدون توجه به جهت
-                            درست
-                            کابل، می‌توانستند آن را درون پورت گوشی قرار دهند. این در حالی است که پیش از   یتیخ ییخن ینمین لایتنینگ، برای
-                            سایر
-                            پورت‌ها فقط یک جهت درست وجود داشت.
-                        </p>
-                        <p className={'text-sm leading-8 tracking-normal text-justify '}>اما این پورت که روزی روزگاری یک نوآوری جذاب محسوب می‌شد، حالا صدای بسیاری از کاربران را
-                            درآورده و این افراد خواستار مهاجرت آیفون به سمت USB-C هستند. اما در کل اپل از جمله شرکت‌هایی
-                            است که برای استفاده از تکنولوژی‌های جدید هیچ عجله‌ای ندارد. در ادامه به ۶ مورد از
-                            تکنولوژی‌هایی می‌پردازیم که اپل دیرتر از رقبا به بهره‌گیری از آن‌ها روی آورده است.
-                        </p>
-                        <h2 className={`${Danab.className} mt-3 text-emerald-600 text-xl`}>USB-C؛ ۸ سال</h2>
+                        <h2 className={`${Danab.className} mt-3 text-emerald-600 text-xl`}>USB-C; 8 años</h2>
                         <Image className="h-[400px] w-full rounded-2xl mt-8 mb-4" width={'500'} height={'300'}
                                src="/img/Blog/post-3-768x307.jpg"
                                alt="c"/>
@@ -114,58 +84,35 @@ export default function Article() {
                             سایر
                             پورت‌ها فقط یک جهت درست وجود داشت.
                         </p>
-                        <p className={'text-sm leading-8 tracking-normal text-justify '}>اما این پورت که روزی روزگاری یک نوآوری جذاب محسوب می‌شد، حالا صدای بسیاری از کاربران را
-                            درآورده و این افراد خواستار مهاجرت آیفون به سمت USB-C هستند. اما در کل اپل از جمله شرکت‌هایی
-                            است که برای استفاده از تکنولوژی‌های جدید هیچ عجله‌ای ندارد. در ادامه به ۶ مورد از
-                            تکنولوژی‌هایی می‌پردازیم که اپل دیرتر از رقبا به بهره‌گیری از آن‌ها روی آورده است.
-                        </p>
-                        <h2 className={`${Danab.className} mt-3 text-emerald-600 text-xl`}>USB-C؛ ۸ سال</h2>
+                        <p className={'text-sm leading-8 tracking-normal text-justify '}>Sin embargo, este puerto que alguna vez fue una innovación atractiva, ahora ha generado muchas críticas y los usuarios quieren que el iPhone migre a USB-C. En general, Apple es una empresa que no se apresura a adoptar nuevas tecnologías. A continuación, repasamos 6 tecnologías que Apple adoptó más tarde que sus competidores.</p>
+                        <h2 className={`${Danab.className} mt-3 text-emerald-600 text-xl`}>USB-C; 8 años</h2>
                         <Image className="h-[400px] w-full rounded-2xl mt-8 mb-4" width={'500'} height={'300'}
                                src="/img/Blog/Android-update-installing-840w-472h-768x488.jpg"
                                alt="c"/>
+                        <p className={'text-sm leading-8 tracking-normal text-justify '}>Sin embargo, este puerto que alguna vez fue una innovación atractiva, ahora ha generado muchas críticas y los usuarios quieren que el iPhone migre a USB-C. En general, Apple es una empresa que no se apresura a adoptar nuevas tecnologías. A continuación, repasamos 6 tecnologías que Apple adoptó más tarde que sus competidores.</p>
+                        <p className={'text-sm leading-8 tracking-normal text-justify '}>Sin embargo, este puerto que alguna vez fue una innovación atractiva, ahora ha generado muchas críticas y los usuarios quieren que el iPhone migre a USB-C. En general, Apple es una empresa que no se apresura a adoptar nuevas tecnologías. A continuación, repasamos 6 tecnologías que Apple adoptó más tarde que sus competidores.</p>
+                        <p className={'text-sm leading-8 tracking-normal text-justify mb-3 '}>Apple presentó el iPhone 5 hace 10 años, que a diferencia de las generaciones anteriores, no tenía conector de 30 pines y salió al mercado con el puerto Lightning. Gracias a este puerto, los usuarios podían conectar el cable sin importar la dirección correcta. Antes del Lightning, otros puertos solo tenían una dirección correcta.</p>
                         <p className={'text-sm leading-8 tracking-normal text-justify '}>اما این پورت که روزی روزگاری یک نوآوری جذاب محسوب می‌شد، حالا صدای بسیاری از کاربران را
                             درآورده و این افراد خواستار مهاجرت آیفون به سمت USB-C هستند. اما در کل اپل از جمله شرکت‌هایی
                             است که برای استفاده از تکنولوژی‌های جدید هیچ عجله‌ای ندارد. در ادامه به ۶ مورد از
                             تکنولوژی‌هایی می‌پردازیم که اپل دیرتر از رقبا به بهره‌گیری از آن‌ها روی آورده است.
                         </p>
-                        <p className={'text-sm leading-8 tracking-normal text-justify '}>اما این پورت که روزی روزگاری یک نوآوری جذاب محسوب می‌شد، حالا صدای بسیاری از کاربران را
-                            درآورده و این افراد خواستار مهاجرت آیفون به سمت USB-C هستند. اما در کل اپل از جمله شرکت‌هایی
-                            است که برای استفاده از تکنولوژی‌های جدید هیچ عجله‌ای ندارد. در ادامه به ۶ مورد از
-                            تکنولوژی‌هایی می‌پردازیم که اپل دیرتر از رقبا به بهره‌گیری از آن‌ها روی آورده است.
-                        </p>
-                        <p className={'text-sm leading-8 tracking-normal text-justify mb-3 '}>اپل ۱۰ سال قبل از آیفون ۵ رونمایی
-                            کرد که برخلاف نسل‌های قبلی، فاقد کانکتور ۳۰ پین
-                            بود و با پورت لایتنینگ راهی بازار شد. به لطف استفاده از این پورت، کاربران بدون توجه به جهت
-                            درست
-                            کابل، می‌توانستند آن را درون پورت گوشی قرار دهند. این در حالی است که پیش از   یتیخ ییخن ینمین لایتنینگ، برای
-                            سایر
-                            پورت‌ها فقط یک جهت درست وجود داشت.
-                        </p>
-                        <p className={'text-sm leading-8 tracking-normal text-justify '}>اما این پورت که روزی روزگاری یک نوآوری جذاب محسوب می‌شد، حالا صدای بسیاری از کاربران را
-                            درآورده و این افراد خواستار مهاجرت آیفون به سمت USB-C هستند. اما در کل اپل از جمله شرکت‌هایی
-                            است که برای استفاده از تکنولوژی‌های جدید هیچ عجله‌ای ندارد. در ادامه به ۶ مورد از
-                            تکنولوژی‌هایی می‌پردازیم که اپل دیرتر از رقبا به بهره‌گیری از آن‌ها روی آورده است.
-                        </p>
-                        <h2 className={`${Danab.className} mt-3 text-emerald-600 text-xl`}>USB-C؛ ۸ سال</h2>
+                        <h2 className={`${Danab.className} mt-3 text-emerald-600 text-xl`}>USB-C; 8 años</h2>
                         <Image className="h-[400px] w-full rounded-2xl mt-8 mb-4" width={'500'} height={'300'}
                                src="/img/Blog/blog-new-6.jpg"
                                alt="c"/>
-                        <p className={'text-sm leading-8 tracking-normal text-justify '}>اما این پورت که روزی روزگاری یک نوآوری جذاب محسوب می‌شد، حالا صدای بسیاری از کاربران را
-                            درآورده و این افراد خواستار مهاجرت آیفون به سمت USB-C هستند. اما در کل اپل از جمله شرکت‌هایی
-                            است که برای استفاده از تکنولوژی‌های جدید هیچ عجله‌ای ندارد. در ادامه به ۶ مورد از
-                            تکنولوژی‌هایی می‌پردازیم که اپل دیرتر از رقبا به بهره‌گیری از آن‌ها روی آورده است.
-                        </p>
+                        <p className={'text-sm leading-8 tracking-normal text-justify '}>Sin embargo, este puerto que alguna vez fue una innovación atractiva, ahora ha generado muchas críticas y los usuarios quieren que el iPhone migre a USB-C. En general, Apple es una empresa que no se apresura a adoptar nuevas tecnologías. A continuación, repasamos 6 tecnologías que Apple adoptó más tarde que sus competidores.</p>
                     </div>
 
                 </div>
                 <div className={' w-[25%] sticky top-2'}>
                     <div className={'w-full bg-white rounded-xl px-10 py-3'}>
-                        <h2 className={`text-base mb-2 ${Morabab.className}`}>آنچه در این مقاله میخوانیم</h2>
-                        <Link href={'/'} className={'text-sm text-emerald-600'}>USB-C؛ ۸ سال</Link>
-                        <Link href={'/'} className={'text-xs  block my-2 tracking-tighter hover:text-emerald-600 transition-all'}>فناوری ترکیب پیکسل‌های سنسور؛ ۴ سال</Link>
-                        <Link href={'/'} className={'text-xs  block my-2 tracking-tighter hover:text-emerald-600 transition-all'}>اینترنت ۵G؛ ۱.۵ سال</Link>
-                        <Link href={'/'} className={'text-xs  block my-2 tracking-tighter hover:text-emerald-600 transition-all'}>نمایشگر همیشه روشن؛ ۶ سال (حداقل)</Link>
-                        <Link href={'/'} className={'text-xs  block my-2 tracking-tighter hover:text-emerald-600 transition-all'}>شارژ بی‌سیم؛ ۸ سال</Link>
+                        <h2 className={`text-base mb-2 ${Morabab.className}`}>Lo que aprenderás en este artículo</h2>
+                        <Link href={'/'} className={'text-sm text-emerald-600'}>USB-C; 8 años</Link>
+                        <Link href={'/'} className={'text-xs  block my-2 tracking-tighter hover:text-emerald-600 transition-all'}>Tecnología de combinación de píxeles del sensor; 4 años</Link>
+                        <Link href={'/'} className={'text-xs  block my-2 tracking-tighter hover:text-emerald-600 transition-all'}>Internet 5G; 1.5 años</Link>
+                        <Link href={'/'} className={'text-xs  block my-2 tracking-tighter hover:text-emerald-600 transition-all'}>Pantalla siempre encendida; 6 años (mínimo)</Link>
+                        <Link href={'/'} className={'text-xs  block my-2 tracking-tighter hover:text-emerald-600 transition-all'}>Carga inalámbrica; 8 años</Link>
                     </div>
                     <div className={'bg-gray-200 w-full mt-5 p-3 rounded-2xl'}>
                         <div className={'relative mt-2'}>
@@ -175,16 +122,16 @@ export default function Article() {
                                    alt="c" />
                             <Link href={'/'}
                                   className={'bg-white top-1 right-1 absolute text-emerald-600 m-auto p-2 rounded-2xl'}>
-                                <span>28%</span>
+                                <span className="font-dana mt-5 text-center text-base">28%</span>
                             </Link>
                         </div>
-                        <h4 className={'mt-5 text-center'}>قهوه ساز برقی سینبو مدل SCM 2928 با بدنه سرامیکی</h4>
+                        <h4 className={'mt-5 text-center'}>cafetera de temporada</h4>
                         <div className={'flex justify-between items-center mt-7'}>
-                            <h4>140,000 تومان</h4>
+                            <h4 className="font-dana mt-5 text-center text-base">$140,000 MXN</h4>
                             <Link href={"/"}
                                   className={'bg-emerald-700 hover:bg-white hover:text-emerald-600 transition-all rounded-3xl flex items-center justify-center text-white w-[91px] h-[31px] text-xs'}>
                                 <Shop className={'text-sm'} />
-                                <span className={'mr-1'}>فروشگاه ما</span>
+                                <span className={'mr-1'}>Comprar</span>
                             </Link>
                         </div>
                     </div>

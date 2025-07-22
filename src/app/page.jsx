@@ -79,7 +79,7 @@ export default function Page() {
                     {/* izquierda: texto y botones */}
                     <div className="w-full lg:[width:90%]">
                         <div className="w-full lg:[width:90%] text-left">
-                            <h3 className={`text-3xl sm:text-5xl my-4 sm:my-6 ${Morabab.className}`}>
+                            <h3 className={`text-3xl sm:text-5xl my-4 sm:my-6 ${Danam.className}`}>
                                 Variedades de café y accesorios para cafetería
                             </h3>
 
@@ -115,9 +115,6 @@ export default function Page() {
                             </div>
                         </div>
                     </div>
-
-
-
                 </section>
 
                 {/* section 2 */}
@@ -125,12 +122,83 @@ export default function Page() {
                     <AboutTea />
                 </section>
 
+                {/* sección 3 */}
+                <section style={{ marginBottom: "8rem" }}>
+                    <div className={'flex items-center justify-center gap-x-2 text-zinc-900'}>
+                        <Image className={'mt-5'} src={'/img/brag.svg'} alt={'ee'} width={'36'}
+                            height={'36'}></Image>
+                        <h4 className={`${Morabab.className} text-4xl`}>Nuestros productos estrellas</h4>
+                        <Image src={'/img/icon.svg'} alt={'dhd'} width={'38'} height={'38'}></Image>
+                    </div>
+                    {/*  Slider main container */}
+                    <Product />
+                </section>
 
+                {/* sección span */}
+                <div className={`${Danareg.className} w-full bg-zinc-900`}>
+                    <div className={`${Danareg.className} max-w-screen-xl m-auto px-4`}>
+                        {/* Sección 4 */}
+                        <section>
+                            <div className="flex flex-col sm:flex-row items-center justify-center gap-2 text-white mt-24 text-center sm:text-left">
+                                <Image style={{marginTop: "8rem"}} src="/img/icon.svg" alt="icon" width={38} height={38} unoptimized />
+                                <h4 style={{marginTop: "8rem"}} className={`${Morabab.className} text-3xl md:text-4xl`}>Nuestro producto</h4>
+                                <Image style={{marginTop: "8rem"}} className="mt-5" src="/img/brag.svg" alt="decor" width={36} height={36} unoptimized />
+                            </div>
+                        </section>
+                        {/* Sección 5 */}
+                        <section className="flex flex-col md:flex-row items-center justify-between pt-[150px] md:pt-[150px] text-white gap-10">
+                            <div className="w-full md:w-1/2">
+                                <div className="flex items-center justify-end gap-2">
+                                    <Image src="/img/icon.svg" alt="icon" width={38} height={38} unoptimized />
+                                    <h4 className={`${Morabab.className} text-3xl md:text-4xl`}>Sobre nuestra tienda</h4>
+                                    <Image className="mt-5" src="/img/brag.svg" alt="decor" width={36} height={36} unoptimized />
+                                </div>
+                                <p className="mt-9 leading-7 text-sm text-left">
+                                    Lorem Ipsum es simplemente el texto de relleno de la industria de la impresión y el diseño gráfico. Muchos libros y publicaciones han utilizado Lorem Ipsum como texto de relleno estándar desde el siglo XVI.
+                                </p>
+                            </div>
+                            <div className="w-full md:w-1/2 flex justify-center">
+                                <Image
+                                    className="w-full max-w-[540px] h-auto"
+                                    width={10000}
+                                    height={2000}
+                                    src="/img/main/ax-min.png"
+                                    alt="c"
+                                    unoptimized
+                                />
+                            </div>
+                        </section>
 
+                        {/* Sección 6 */}
+                        <section className="flex flex-col-reverse md:flex-row items-center justify-between mt-24 text-white gap-10">
+                            <div className="w-full md:w-1/2 flex justify-center">
+                                <Image
+                                    className="w-full max-w-[540px] h-auto"
+                                    width={10000}
+                                    height={2000}
+                                    src="/img/main/ax2-min.png"
+                                    alt="c"
+                                    unoptimized
+                                />
+                            </div>
+                            <div className="w-full md:w-1/2">
+                                <div className="flex items-center justify-end gap-2 mb-12">
+                                    <Image src="/img/icon.svg" alt="icon" width={38} height={38} unoptimized />
+                                    <h4 className={`${Morabab.className} text-3xl md:text-4xl`}>Sobre nuestra tienda</h4>
+                                    <Image className="mt-5" src="/img/brag.svg" alt="decor" width={36} height={36} unoptimized />
+                                </div>
+                                {/* Checks */}
+                                {Array(4).fill(0).map((_, i) => (
+                                    <div key={i} className="flex items-start gap-3 mt-6">
+                                        <p className="text-sm text-left">Lorem Ipsum es simplemente el texto de relleno de la industria de la impresión y el diseño gráfico.</p>
+                                        <Check className={i % 2 === 1 ? 'text-emerald-600' : ''} />
+                                    </div>
+                                ))}
+                            </div>
+                        </section>
+                    </div>
+                </div>
             </div>
-
-
-
         </div>
 
 

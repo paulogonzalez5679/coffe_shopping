@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'DanaRegular';
+  src: url('/src/components/fonts/Dana/woff2/DanaFaNum-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.font-dana {
+  font-family: 'DanaRegular', Arial, sans-serif;
+}

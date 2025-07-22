@@ -118,6 +118,8 @@ export default function AboutPage() {
                         </div>
                     </div>
                 </section>
+
+                
             </div>
             {/* sección opiniones */}
             <section className={'w-full h-[600px] bg-zinc-900  mt-[-175px] '}>

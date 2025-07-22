@@ -41,16 +41,15 @@ export default function Navbar() {
         </div>
 
         {/* Desktop Menu */}
-        <div className="hidden md:flex items-center gap-6">
+        <div dir="ltr" className="hidden md:flex items-center gap-6">
           {links.map((link) => (
             <Link
               key={link.url}
               href={link.url}
               className="flex items-center gap-2 transition-all hover:text-emerald-600"
             >
-
-              <span className={Danamedium.className} style={{ marginTop: "0.5rem" }}>{link.title}</span>
               <span className="text-emerald-600">{link.icon}</span>
+              <span className={Danamedium.className} style={{ marginTop: "0.5rem" }}>{link.title}</span>
             </Link>
           ))}
         </div>
@@ -81,7 +80,7 @@ export default function Navbar() {
           isOpen ? "max-h-[500px] opacity-100" : "max-h-0 opacity-0"
         )}
       >
-        <div className="flex flex-col items-center py-4 gap-4">
+        <div dir="ltr" className="flex flex-col items-center py-4 gap-4">
           {links.map((link) => (
             <Link
               key={link.url}
@@ -89,8 +88,9 @@ export default function Navbar() {
               className="flex items-center gap-2 text-zinc-700 hover:text-emerald-600"
               onClick={() => setIsOpen(false)}
             >
-              <span className="text-emerald-600">{link.icon}</span>
+              
               <span className={Danamedium.className}>{link.title}</span>
+              <span className="text-emerald-600">{link.icon}</span>
             </Link>
           ))}
 
