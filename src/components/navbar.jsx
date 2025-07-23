@@ -22,7 +22,7 @@ const Danamedium = localFont({
 const links = [
   { url: "/", title: "Inicio", icon: <HomeOutlinedIcon /> },
   { url: "/shop", title: "Tienda", icon: <StorefrontOutlinedIcon /> },
-  { url: "/order", title: "Pedidos", icon: <CoffeeIcon /> },
+  // { url: "/order", title: "Pedidos", icon: <CoffeeIcon /> },
   // { url: "/weblog", title: "Blog", icon: <FeedOutlinedIcon /> },
   { url: "/aboutUS", title: "Sobre nosotros", icon: <InfoOutlinedIcon /> },
   { url: "/callUs", title: "Contáctanos", icon: <ContactPhoneOutlinedIcon /> },

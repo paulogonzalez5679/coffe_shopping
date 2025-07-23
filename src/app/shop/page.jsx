@@ -6,6 +6,10 @@ import Link from "next/link";
 import Shop from "@mui/icons-material/StorefrontOutlined";
 import ProductShop from '@/components/ProductShop';
 import Pagination from '@/components/Pagination';
+import CoffeeIcon from '@mui/icons-material/Coffee';
+import HelpOutlineOutlinedIcon from '@mui/icons-material/HelpOutlineOutlined';
+import CustomCombination from '@/components/CustomCombination';
+import Range from '@/components/range'
 
 // 🔁 Función para barajar productos aleatoriamente
 function shuffleArray(array) {
@@ -16,7 +20,7 @@ function shuffleArray(array) {
 }
 
 // Fuentes personalizadas
-const MorabaLight = localFont({
+const Morabbalight = localFont({
   src: "../../components/fonts/Morabba/woff2/Morabba-Light.woff2"
 });
 const Morabab = localFont({
@@ -34,14 +38,14 @@ const Danab = localFont({
 
 // Productos
 const products = [
-  { id: 1, name: "Caja de 60 chocolates amargos de café Violeta Farmand 55g", src: '/img/main/product-7-min.png', price: '140,000 Tomanes' },
-  { id: 2, name: "Granos de café mezcla FALL Blend Colombia original 250g", src: '/img/main/product-3.png', price: '140,000 Tomanes' },
-  { id: 3, name: "Taza con tapa de silicona y cuerpo de cerámica diseño Starbucks", src: '/img/main/product-2-min.png', price: '140,000 Tomanes' },
-  { id: 4, name: "Cafetera eléctrica Sinbo modelo SCM 2928 con cuerpo cerámico", src: '/img/main/product-1.png', price: '140,000 Tomanes' },
-  { id: 5, name: "Cafetera eléctrica Sinbo modelo SCM 2928 con cuerpo cerámico", src: '/img/main/product-4-min.png', price: '140,000 Tomanes' },
-  { id: 6, name: "Cafetera eléctrica Sinbo modelo SCM 2928 con cuerpo cerámico", src: '/img/main/product-5-min.png', price: '140,000 Tomanes' },
-  { id: 7, name: "Cafetera eléctrica Sinbo modelo SCM 2928 con cuerpo cerámico", src: '/img/main/product-6-min.png', price: '140,000 Tomanes' },
-  { id: 8, name: "Cafetera eléctrica Sinbo modelo SCM 2928 con cuerpo cerámico", src: '/img/main/product-8-min.png', price: '140,000 Tomanes' },
+  { id: 1, name: "Caja de 60 chocolates amargos de café Violeta Farmand 55g", src: '/img/main/product-7-min.png', price: '$14.00' },
+  { id: 2, name: "Granos de café mezcla FALL Blend Colombia original 250g", src: '/img/main/product-3.png', price: '$14.00' },
+  { id: 3, name: "Taza con tapa de silicona y cuerpo de cerámica diseño Starbucks", src: '/img/main/product-2-min.png', price: '$14.00' },
+  { id: 4, name: "Cafetera eléctrica Sinbo modelo SCM 2928 con cuerpo cerámico", src: '/img/main/product-1.png', price: '$14.00' },
+  { id: 5, name: "Cafetera eléctrica Sinbo modelo SCM 2928 con cuerpo cerámico", src: '/img/main/product-4-min.png', price: '$14.00' },
+  { id: 6, name: "Cafetera eléctrica Sinbo modelo SCM 2928 con cuerpo cerámico", src: '/img/main/product-5-min.png', price: '$14.00' },
+  { id: 7, name: "Cafetera eléctrica Sinbo modelo SCM 2928 con cuerpo cerámico", src: '/img/main/product-6-min.png', price: '$14.00' },
+  { id: 8, name: "Cafetera eléctrica Sinbo modelo SCM 2928 con cuerpo cerámico", src: '/img/main/product-8-min.png', price: '$14.00' },
 ];
 
 // Filtros
@@ -102,106 +106,146 @@ export default function ShopPage() {
 
   return (
     <div className={`${Danareg.className} m-auto mt-12`}>
-      <div className="flex gap-x-8">
-        {/* Sidebar filtros */}
-        <section className="w-[25%] h-[424px] sticky top-2">
-          <input type="search" placeholder="جستجو..."
-            className="h-11 w-full mb-4 pr-2 rounded-xl text-black" />
-          <Link href="/" className="w-full bg-emerald-700 mb-4 rounded-xl text-white block text-center py-2">
-            <span>جستجو کنید</span>
-          </Link>
-
-          <div className="flex flex-col justify-around w-full mb-4 h-[108px] bg-white px-4 rounded-xl">
-            <span>فیلتر قیمت</span>
-            <input
-              type="range"
-              style={{ accentColor: '#059669' }}
-              name="min"
-              min={1000}
-              max={2750000}
-              value={minPrice}
-              onChange={handleRangeChange}
-            />
-            <span className="text-center">{formatNumber(minPrice)} تومان — 2,750,000 تومان</span>
+      <div className="w-[90%] max-w-[1200px] m-auto mt-20 px-4">
+        {/* Sección 1 */}
+        <section className="flex flex-col-reverse lg:flex-row items-center gap-y-10">
+          {/* Columna izquierda (Texto + botones) */}
+          <div className="w-full lg:w-1/2">
+            <div className="flex items-center gap-x-2 text-zinc-900">
+              <Image src="/img/icon.svg" alt="logo" width={38} height={38} />
+              <h4 className={`${Morabab.className} text-3xl md:text-4xl`}>Mezcla personalizada</h4>
+              <Image className="mt-5" src="/img/brag.svg" alt="dec" width={36} height={36} />
+            </div>
+            <p className="mt-5 text-zinc-700 text-sm leading-7 text-justify">
+              Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto...
+            </p>
+            <div className="flex flex-col sm:flex-row mt-10 gap-4">
+              <Link href="/callUs" className="bg-emerald-700 rounded-3xl flex items-center justify-center text-white w-full sm:w-[136px] h-[43px] text-sm">
+                <CoffeeIcon />
+                <span className="ml-2 font-bold">¡Contáctanos!</span>
+              </Link>
+            </div>
           </div>
 
-          {/* Filtro por categoría */}
-          <div className="relative">
-            <input
-              type="search"
-              placeholder={searchText}
-              className="h-11 w-full mb-4 pr-2 rounded-xl text-black cursor-pointer"
-              onFocus={() => setShowDropdown(true)}
-              readOnly
+          {/* Columna derecha (Imagen) */}
+          <div className="w-full lg:w-1/2">
+            <Image
+              className="w-full max-w-[634px] h-auto rounded-3xl mx-auto"
+              width={1000}
+              height={1000}
+              src="/img/order/Frame-304-min.jpg"
+              alt="ilustración"
             />
-            {showDropdown && (
-              <div className="absolute w-full bg-white border rounded-xl -mt-4 z-10">
-                {categories.map((category, index) => (
-                  <div
-                    key={index}
-                    className="px-4 py-2 cursor-pointer hover:bg-gray-200"
-                    onClick={() => handleCategoriesChange(category)}
-                  >
-                    {category}
-                  </div>
-                ))}
-              </div>
-            )}
           </div>
-
-          {/* Filtro por marca */}
-          <div className="relative">
-            <input
-              type="search"
-              placeholder={searchBrand}
-              className="h-11 w-full mb-4 pr-2 rounded-xl text-black cursor-pointer"
-              onFocus={() => setShowDropdownBrand(true)}
-              readOnly
-            />
-            {showDropdownBrand && (
-              <div className="absolute w-full bg-white border rounded-xl -mt-4 z-10">
-                {brand.map((brands, index) => (
-                  <div
-                    key={index}
-                    className="px-4 py-2 cursor-pointer hover:bg-gray-200"
-                    onClick={() => handleBrandChange(brands)}
-                  >
-                    {brands}
-                  </div>
-                ))}
-              </div>
-            )}
-          </div>
-
-          <Link href="/" className="w-full bg-emerald-700 mb-4 rounded-xl text-white block text-center py-2">
-            <span>اعمال فیلتر</span>
-          </Link>
         </section>
 
-        {/* Productos */}
-        <div className="flex flex-col w-[73%]">
-          <section className="w-full rounded-xl px-4 flex justify-between items-center bg-white h-[62px]">
-            <h3 className={`text-gray-700 text-xl ${Morabab.className}`}>فروشگاه</h3>
-          </section>
+        {/* Sección 2: CustomCombination */}
+        <section className="py-10 mt-20">
+          <CustomCombination />
+        </section>
+      </div>
 
-          <div className="products-grid grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 py-4">
-            {currentItems.map((product) => (
-              <ProductShop key={product.id} product={product} />
-            ))}
+      {/* Sección filtros + productos */}
+      <div className={`${Danareg.className} m-auto mt-12 px-4`}>
+        <div className="flex flex-col lg:flex-row gap-x-12">
+
+          {/* Productos */}
+          <div className="w-full lg:w-[75%]">
+            <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 gap-6 py-4" dir="ltr">
+              {currentItems.map((product) => (
+                <ProductShop key={product.id} product={product} />
+              ))}
+            </div>
+
+            {/* Paginación */}
+            <section className="mb-20 mt-5">
+              <div className="w-full h-[47px] bg-white rounded-2xl flex items-center justify-center gap-x-6">
+                <Pagination
+                  currentPage={currentPage}
+                  totalPages={Math.ceil(shuffledProducts.length / itemsPerPage)}
+                  onPageChange={handlePageChange}
+                />
+              </div>
+            </section>
           </div>
 
-          {/* Paginación */}
-          <section className="mb-20 mt-5">
-            <div className="w-full h-[47px] bg-white rounded-2xl flex items-center justify-center gap-x-6">
-              <Pagination
-                currentPage={currentPage}
-                totalPages={Math.ceil(shuffledProducts.length / itemsPerPage)}
-                onPageChange={handlePageChange}
+          {/* Filtros */}
+          <section className="w-full lg:w-[25%] h-auto lg:sticky top-2 lg:mr-10" dir="ltr">
+            {/* Input de búsqueda */}
+            <input
+              type="search"
+              placeholder="Buscar..."
+              className="h-11 w-full mb-4 pl-4 pr-2 rounded-xl text-black text-left"
+            />
+
+            {/* Botón de búsqueda */}
+            <Link
+              href="/"
+              className="w-full bg-emerald-700 mb-4 rounded-xl text-white block text-center py-2"
+            >
+              <span>Buscar</span>
+            </Link>
+
+            {/* Filtro por categoría */}
+            <div className="relative">
+              <input
+                type="search"
+                placeholder={searchText}
+                className="h-11 w-full mb-4 pl-4 pr-2 rounded-xl text-black cursor-pointer text-left"
+                onFocus={() => setShowDropdown(true)}
+                readOnly
               />
+              {showDropdown && (
+                <div className="absolute w-full bg-white border rounded-xl -mt-4 z-10 text-left">
+                  {categories.map((category, index) => (
+                    <div
+                      key={index}
+                      className="px-4 py-2 cursor-pointer hover:bg-gray-200"
+                      onClick={() => handleCategoriesChange(category)}
+                    >
+                      {category}
+                    </div>
+                  ))}
+                </div>
+              )}
             </div>
+
+            {/* Filtro por marca */}
+            <div className="relative">
+              <input
+                type="search"
+                placeholder={searchBrand}
+                className="h-11 w-full mb-4 pl-4 pr-2 rounded-xl text-black cursor-pointer text-left"
+                onFocus={() => setShowDropdownBrand(true)}
+                readOnly
+              />
+              {showDropdownBrand && (
+                <div className="absolute w-full bg-white border rounded-xl -mt-4 z-10 text-left">
+                  {brand.map((brands, index) => (
+                    <div
+                      key={index}
+                      className="px-4 py-2 cursor-pointer hover:bg-gray-200"
+                      onClick={() => handleBrandChange(brands)}
+                    >
+                      {brands}
+                    </div>
+                  ))}
+                </div>
+              )}
+            </div>
+
+            {/* Botón de aplicar filtros */}
+            <Link
+              href="/"
+              className="w-full bg-emerald-700 mb-4 rounded-xl text-white block text-center py-2"
+            >
+              <span>Aplicar Filtros</span>
+            </Link>
           </section>
         </div>
       </div>
     </div>
   );
+
+
 }

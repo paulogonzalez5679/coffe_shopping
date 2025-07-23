@@ -135,14 +135,14 @@ export default function Page() {
                 </section>
 
                 {/* sección span */}
-                <div className={`${Danareg.className} w-full bg-zinc-900`}>
+                <div style={{ width: "101%" }} className={`${Danareg.className} w-full bg-zinc-900`}>
                     <div className={`${Danareg.className} max-w-screen-xl m-auto px-4`}>
                         {/* Sección 4 */}
-                        <section>
+                        <section >
                             <div className="flex flex-col sm:flex-row items-center justify-center gap-2 text-white mt-24 text-center sm:text-left">
-                                <Image style={{marginTop: "8rem"}} src="/img/icon.svg" alt="icon" width={38} height={38} unoptimized />
-                                <h4 style={{marginTop: "8rem"}} className={`${Morabab.className} text-3xl md:text-4xl`}>Nuestro producto</h4>
-                                <Image style={{marginTop: "8rem"}} className="mt-5" src="/img/brag.svg" alt="decor" width={36} height={36} unoptimized />
+                                <Image style={{ marginTop: "8rem" }} src="/img/icon.svg" alt="icon" width={38} height={38} unoptimized />
+                                <h4 style={{ marginTop: "8rem" }} className={`${Morabab.className} text-3xl md:text-4xl`}>Nuestro producto</h4>
+                                <Image style={{ marginTop: "8rem" }} className="mt-5" src="/img/brag.svg" alt="decor" width={36} height={36} unoptimized />
                             </div>
                         </section>
                         {/* Sección 5 */}
@@ -197,6 +197,51 @@ export default function Page() {
                             </div>
                         </section>
                     </div>
+                </div>
+
+                {/* sección principal */}
+                <div className={`${Danareg.className} m-auto mt-[-165px]`}>
+                    {/* sección 7 */}
+                    <br/>
+                    <section style={{marginTop: "18rem"}}>
+                        <div className={'flex items-center justify-center gap-x-2 text-zinc-900'}>
+                            <Image className={'mt-5'} src={'/img/brag.svg'} alt={'ee'} width={'36'}
+                                height={'36'}></Image>
+                            <h4 className={`${Morabab.className} text-4xl`}>Visita nuestra tienda</h4>
+                            <Image src={'/img/icon.svg'} alt={'dhd'} width={'38'} height={'38'}></Image>
+                        </div>
+                        <br/><br/><br/>
+                        <Product />
+                        <br/><br/>
+                        <div className={'m-auto mt-14 flex justify-center '}>
+                            <Link href={'/shop'}
+                                className={'bg-gray-200 h-[39px] rounded-2xl text-emerald-600 hover:bg-emerald-600 hover:text-white transition-all w-[137px] flex items-center justify-center'}>
+                                <span>Ver todo</span>
+                            </Link>
+                        </div>
+                    </section>
+                    <br/><br/><br/><br/>
+                    {/* sección 8*/}
+                    {/* <section className={'mt-20'}>
+                        <div className={'flex items-center justify-center gap-x-2 text-zinc-900'}>
+                            <Image src={'/img/icon.svg'} alt={'dhd'} width={'38'} height={'38'} unoptimized></Image>
+                            <h4 className={`${Morabab.className} text-4xl`}>Combinación personalizada</h4>
+                            <Image className={'mt-5'} src={'/img/brag.svg'} alt={'ee'} width={'36'}
+                                height={'36'} unoptimized ></Image>
+                        </div>
+                    </section> */}
+                    {/* sección 9 */}
+                    {/* <section>
+                        <CustomCombination />
+                    </section> */}
+                    {/* sección 10 */}
+                    {/* <section className={'m-auto mt-11 flex justify-center '}>
+                        <Link href={'/order'}
+                            className={'hover:bg-gray-200 h-[39px] rounded-2xl hover:text-emerald-600 bg-emerald-600 text-white transition-all w-[137px] flex items-center justify-center'}>
+                            <span>Haz tu pedido</span>
+                        </Link>
+                    </section> */}
+
                 </div>
             </div>
         </div>
